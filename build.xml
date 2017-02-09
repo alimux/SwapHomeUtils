@@ -19,7 +19,7 @@
 <target name="doc" depends="init,compile"><javadoc packagenames="sorting" sourcepath="." destdir="doc"/></target>
 
 <target name="test" depends="compile">
-  <java classname="uitls.Test" classpath="build:ressources/">
+  <java classname="utils.Test" classpath="build:src/">
     <classpath refid="external" />
   </java>
 </target>
