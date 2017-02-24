@@ -8,6 +8,7 @@ package utils;
 public class Test {
 
     /**
+     * Test class for utils
      * @param args the command line arguments
      */
     public static void main(String[] args) {
@@ -35,7 +36,7 @@ public class Test {
         }
         
         for(int i=0;i<Utils.getCountriesList().size();i++){
-            System.out.println("test countries name index : "+Utils.getCountriesList().get(i).EN);
+            System.out.println("test countries name index : "+Utils.getCountriesList().get(i));
         }
         
     }
